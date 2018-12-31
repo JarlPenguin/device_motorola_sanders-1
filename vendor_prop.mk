@@ -316,3 +316,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qualcomm.foss=1 \
     config.foss.xml=1 \
     config.foss.path=/vendor/etc/FOSSConfig.xml
+
+# WFD
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.debug.wfd.enable=1 \
+    vendor.video.disable.ubwc=1
