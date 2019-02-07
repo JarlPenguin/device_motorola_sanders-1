@@ -192,8 +192,7 @@ PRODUCT_COPY_FILES += \
 
 # health
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.0-impl \
-    android.hardware.health@2.0-service
+    android.hardware.health@2.0-service.sanders
 
 # HIDL
 PRODUCT_PACKAGES += \
