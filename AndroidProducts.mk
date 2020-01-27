@@ -16,3 +16,7 @@
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_sanders.mk
 
+COMMON_LUNCH_CHOICES := \
+	aosp_sanders-eng \
+	aosp_sanders-userdebug \
+	aosp_sanders-user
